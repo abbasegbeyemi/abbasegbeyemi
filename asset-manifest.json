@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/abbasegbeyemi/static/css/main.5f361e03.chunk.css",
+    "main.js": "/abbasegbeyemi/static/js/main.2cdeb29d.chunk.js",
+    "main.js.map": "/abbasegbeyemi/static/js/main.2cdeb29d.chunk.js.map",
+    "runtime-main.js": "/abbasegbeyemi/static/js/runtime-main.8c11bfb7.js",
+    "runtime-main.js.map": "/abbasegbeyemi/static/js/runtime-main.8c11bfb7.js.map",
+    "static/js/2.34a8fa1a.chunk.js": "/abbasegbeyemi/static/js/2.34a8fa1a.chunk.js",
+    "static/js/2.34a8fa1a.chunk.js.map": "/abbasegbeyemi/static/js/2.34a8fa1a.chunk.js.map",
+    "index.html": "/abbasegbeyemi/index.html",
+    "precache-manifest.4865f64d42bef1eef06208f123602cca.js": "/abbasegbeyemi/precache-manifest.4865f64d42bef1eef06208f123602cca.js",
+    "service-worker.js": "/abbasegbeyemi/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/abbasegbeyemi/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.34a8fa1a.chunk.js.LICENSE.txt": "/abbasegbeyemi/static/js/2.34a8fa1a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/abbasegbeyemi/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c11bfb7.js",
+    "static/js/2.34a8fa1a.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2cdeb29d.chunk.js"
+  ]
+}
