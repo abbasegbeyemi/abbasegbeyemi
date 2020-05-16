@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Editing a section of the app
+            At some point we'll graduate from a react app.
         </p>
       </header>
     </div>
