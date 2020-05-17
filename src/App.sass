@@ -1,0 +1,107 @@
+.App
+  text-align: center
+
+.App-logo
+  height: 40vmin
+  pointer-events: none
+  filter: invert(0%) sepia(92%) saturate(100%) hue-rotate(92deg) brightness(0) contrast(107%)
+
+@media (prefers-reduced-motion: no-preference)
+  .App-logo
+    animation: App-logo-colorise infinite 5s linear
+    animation-direction: alternate
+
+  .contact-button
+    span
+      animation: contact-button-colorise infinite 5s linear
+      animation-direction: alternate
+
+    a
+      animation: contact-button-icons-colorise infinite 5s linear
+      animation-direction: alternate
+
+
+.App-header
+  background-color: #1c2d33
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  font-size: calc(10px + 2vmin)
+  color: white
+
+.App-link
+  color: #61dafb
+
+.contact-button
+  width: 280px
+  height: 80px
+  background: #1c2d33
+  border-radius: 40px
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  position: relative
+  cursor: pointer
+  transition: 0.3s linear
+
+  &:hover
+    transform: scale(1.1)
+
+  span
+    position: absolute
+    width: 100%
+    height: 100%
+    background: #d49d26
+    color: black
+    text-align: center
+    letter-spacing: 1px
+    line-height: 80px
+    z-index: 3
+    transition: 0.6s linear
+    border-radius: 40px
+
+  &:hover span
+    transform: translateX(-100%)
+    transition-delay: 0.3s
+
+  a
+    flex: 1
+    font-size: 26px
+    color: #d49d26
+    text-align: center
+    transform: translateX(-100%)
+    opacity: 0
+    transition: 0.3s linear
+
+  &:hover a
+    opacity: 1
+    transform: translateX(0)
+
+  @for $i from 1 through 4
+    a:nth-child(n + #{$i})
+      transition-delay: #{(1 - ($i * 0.2)) + 0.2}s
+
+
+@keyframes App-logo-colorise
+  from
+    filter: invert(60%) sepia(24%) saturate(1219%) hue-rotate(3deg) brightness(100%) contrast(97%)
+
+  to
+    filter: invert(69%) sepia(35%) saturate(1914%) hue-rotate(126deg) brightness(109%) contrast(100%)
+
+@keyframes contact-button-colorise
+  from
+    background-color: #d49d26
+  to
+    background-color: #00faf2
+
+@keyframes contact-button-icons-colorise
+  from
+    color: #d49d26
+  to
+    color: #00faf2
+
+
