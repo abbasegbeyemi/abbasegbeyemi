@@ -15,10 +15,22 @@ function App() {
                 </p>
                 <div className="contact-button">
                     <span><FontAwesomeIcon icon={faExternalLinkAlt}/> Contact me </span>
-                    <a href="#"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                    <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
-                    <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
-                    <a href="#"><FontAwesomeIcon icon={faEnvelope}/></a>
+                    <a href="https://www.linkedin.com/in/abbasegbeyemi" target="_blank"
+                    rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedinIn}/>
+                    </a>
+                    <a href="https://github.com/abbasegbeyemi" target="_blank"
+                    rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub}/>
+                    </a>
+                    <a href="https://twitter.com/sheybass" target="_blank"
+                    rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faTwitter}/>
+                    </a>
+                    <a href="mailto:abbasegbeyemi@gmail.com?subject=Enquiry&body=Hello."
+                    target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faEnvelope}/>
+                    </a>
                 </div>
             </header>
         </div>
